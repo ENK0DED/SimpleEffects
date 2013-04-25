@@ -1,0 +1,15 @@
+name: SimpleEffects
+version: 0.1
+main: com.github.enk0ded.simpleeffects.SimpleEffects
+author: ENK0DED
+commands:
+  playeffect:
+    description: Adds a command to execute via timer. 
+    usage: /<command> <effectname> [x] [y] [z]
+    aliases: [pe, ple, play]
+    permission: simpleeffects.playeffect
+permissions:
+  simpleeffects.*:
+    description: Gives access to all SimpleEffects commands,
+    children:
+      simpleeffects.playeffect: true
