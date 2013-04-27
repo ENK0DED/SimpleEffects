@@ -2,7 +2,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.github.enk0ded</groupId>
-    <artifactId>SimpleEffects</artifactId>
+    <artifactId>simpleeffects</artifactId>
     <version>0.1</version>
     <packaging>jar</packaging>
 
@@ -30,6 +30,7 @@
           <url>http://repo.bukkit.org/content/groups/public/</url>
         </repository>
     </repositories>
+
     <dependencies>
         <dependency>
             <groupId>org.bukkit</groupId>
